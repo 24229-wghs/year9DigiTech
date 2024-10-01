@@ -1,0 +1,442 @@
+ /* Main Title */
+ h1 {
+text-align: left;
+background-color: burlywood;
+padding: 30px;
+font-size: 40px;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Body */
+body {
+background-image: url('https://img.freepik.com/free-photo/vintage-wallpaper-background_53876-146838.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+
+/* Unordered List (Links on Top Right Corner) */
+ul {
+list-style-type: none;
+text-align: right;
+position: absolute;
+top: 30px;
+right: 40px;
+}
+ul li {
+display: inline-block;
+}
+ul li a {
+background-color: lightblue;
+padding: 20px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 5px solid black;
+}
+ul li a:hover {
+background-color: rgb(180,210,237);
+color: black;
+padding: 15px;
+font-size: 15px;
+font-family:cursive;
+}
+
+/* Table of Contents Heading */
+h2 {
+text-align: center;
+background-color: burlywood;
+padding: 10px;
+font-size: 35px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 300px;
+height: 100x;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+/* Section Headers */
+.a {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 700px;
+top: 150px;
+}
+.b {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 700px;
+top: 600px;
+}
+.c {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 700px;
+top: 1100px;
+}
+.d {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 700px;
+top: 1550px;
+}
+.e {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 700px;
+top: 1720px;
+}
+
+/* Images border */
+img{
+border: 2px solid black;
+}
+
+/* Images */
+/* About me */
+.img1 {
+height: 200x;
+margin-left: 700px;
+top: 250px;
+position: absolute;
+}
+/* Pepeha */
+.img2 {
+height: 200x;
+margin-left: 700px;
+top: 790px;
+position: absolute;
+}
+/* Scratch Game Study */
+.img3 {
+height: 200x;
+margin-left: 700px;
+top: 1200px;
+position: absolute;
+}
+/* Files */
+.img4 {
+height: 200x;
+margin-left: 700px;
+top: 2000px;
+position: absolute;
+}
+/* Micobit */
+.img5 {
+height: 200px;
+margin-left: 700px;
+top: 2520px;
+position: absolute;
+}
+
+/* Vertical Line */
+.vl {
+border-left: 10px solid black;
+height: 2825px;
+left: 500px;
+right: 500px;
+position: absolute;
+}
+
+/* Ordered List (Table of Contents) */
+ol{
+font-size: 25px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 100px;
+margin-top: 0px;
+}
+
+/* Suprising Fact text styling */
+h4{
+font-size: 30px;
+color: black;
+font-family: cursive;
+background-color:rgb(238,169,144);
+text-align: center;
+margin-left: 600px;
+margin-right: 10px;
+}
+
+/* Icons */
+/* Computer Icon */
+.icon-1 {
+font-size: 70px;
+top: 40px;
+right: 725px;
+position: absolute;
+}
+/* Bars Icon */
+.icon-2 {
+font-size: 70px;
+top: 225px;
+left: 30px;
+position: absolute;
+}
+/* User Icon */
+.icon-3 {
+font-size: 70px;
+top: 150px;
+left: 625px;
+position: absolute;
+}
+/* Pen Icon */
+.icon-4 {
+font-size: 70px;
+top: 600px;
+left: 620px;
+position: absolute;
+}
+/* Gamepad Icon */
+.icon-5 {
+font-size: 70px;
+top: 1105px;
+left: 600px;
+position: absolute;
+}
+/* File Icon */
+.icon-6 {
+font-size: 70px;
+top: 1550px;
+left: 628px;
+position: absolute;
+}
+/* Laptop Code Icon */
+.icon-7 {
+font-size: 70px;
+top: 1730px;
+left: 600px;
+position: absolute;
+}
+
+
+
+/* Click here to see my work button 1 styling */
+.div-1 p{
+list-style-type: none;
+display: inline-block;
+margin-left: 700px;
+top: 1450px;
+position: absolute;
+}
+.div-1 p a {
+background-color: rgb(176,220,76);
+padding: 10px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 3px solid black;
+}
+.div-1 p a:hover {
+background-color: rgb(80,200,120);
+color: black;
+padding: 10px;
+font-size: 20px;
+font-family:cursive;
+}
+
+/* Click here to see my work button 2 styling */
+.div-2 p{
+list-style-type: none;
+display: inline-block;
+margin-left: 500px;
+margin-top: 0px;
+position: absolute;
+top: 1650px;
+right: 365px;
+}
+.div-2 p a {
+background-color: rgb(255,165,0);
+padding: 10px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 3px solid black;
+}
+.div-2 p a:hover {
+background-color:rgb(255,174,66) ;
+color: black;
+padding: 10px;
+font-size: 20px;
+font-family:cursive;
+}
+
+/* Microbits - Pong game text and youtube link styling */
+.div-3{
+font-size: 20px;
+color: black;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:rgb(232,158,184);
+position: absolute;
+top: 1830px;
+right: 12px;
+align-content: center;
+margin-left: 600px;
+margin-right: 10px;
+}
+
+
+/* Microbits - Flappy game text styling */
+.div-4{
+font-size: 20px;
+color: black;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:rgb(250, 213, 165);
+margin-left: 600px;
+margin-right: 10px;
+margin-top: 0px;
+align-content: center;
+top: 2370px;
+right: 12px;
+position: absolute;
+}
+
+/* Copyright Symbol Styling */
+body:after {
+content:"\00a9 2024 Jashmitha Maddala";
+width:100%;
+height:40px;
+background-color:burlywood;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: absolute;
+left: 0px;
+top: 3000px;
+text-align: center;
+}
+
+/* To-Do List Items */
+#itemInput {
+padding: 10px;
+width: 200px;
+margin-top: 20px;
+
+}
+#editableList {
+position: absolute;
+top: 650px; /* To change the list i've put down to go bottom */
+left: 25px;
+list-style-type: none;
+margin-top: 20px;
+padding: 0;
+max-width: calc(100% - 520px);
+ margin-left: 0px; 
+ margin-right: 900px;
+ max-width: 600px; 
+ 
+ } 
+ #editableList li {
+ background-color: burlywood;
+ margin: 5px 0;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ display: flex;
+ justify-content: space-between;
+ overflow-wrap: break-word;
+ width: auto; /* Let it adapt to the size of the container */
+ max-width: 400px; /* Maximum width to avoid overflow */
+ font-size: 20px;
+}
+/* Buttons */
+button {
+    display: inline-block;
+    padding: 10px; /* Padding for the button */
+    margin-left: 10px; /* Space between input and button */
+} 
+
+/* Style for the button group */
+.button-group {
+    display: flex; /* Keep buttons next to each other */
+    margin-left: 10px;     /* Add space between the list item text and buttons */
+    margin-top: 5px; /* Space between buttons and text */
+    gap: 10px;
+}
+
+/* Individual button styling */
+.button-group button {
+    margin-left: 5px;      /* Space between the Edit and Delete buttons */
+    padding: 5px 10px;     /* Keep consistent padding for all buttons */
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;    /* Prevent text from wrapping */
+    width: 80px;            /* Set a fixed width for the buttons */
+    /* Optional: Add a hover effect */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button-group button:hover {
+    background-color: rgb(128, 0, 32); 
+}
+
+/* Center the input and button */
+#newItem {
+    width: 200px; /* Width of the input field */
+    padding: 10px; /* Padding for better appearance */
+}
+
+/* Center the input and button and move 300px to the left */
+#addItemContainer {
+    text-align: center; /* Center the content */
+    margin-top: 20px; /* Space above the input section */
+    position: absolute;
+    top: 602px;
+    left: 150px;
+}
+

@@ -4,68 +4,282 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <script src="https://kit.fontawesome.com/e174ae0bc6.js" crossorigin="anonymous"></script>
     <style>
-        h1{
-            align-items: center;
-            text-align: center;
-            background-color: rgb(166, 123, 91);
-            padding: 20px;
-            font-size: 100px;
-            display: flex;
-            color: black;
-            text-decoration: none;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            height: 40px;
-            position: absolute;
-            margin-left: 700px;
-            top: 20px;
+    /* Main Title */
+        h1 {
+        text-align: left;
+        background-color: burlywood;
+        padding: 30px;
+        font-size: 40px;
+        color: black;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        .img1 {
-            height: 300x;
-            margin-left: 750px;
-            top: 200px;
-            position: absolute;
-        }
-        h4{
-            font-size: 50px;
-            color: black;
-            font-family: cursive;
-            background-color:rgb(238,169,144);
-            text-align: center;
-            margin-left: 200px;
-            margin-right: 200px;
-            margin-top: 300px;
-        }
-        .img2 {
-            height: 300x;
-            margin-left: 750px;
-            top: 750px;
-            position: absolute;
-        }
-        img{
-            border: 4px solid black;
-        }
-        /* Copyright Symbol Styling */
-        body:after {
-            content:"\00a9 2024 Jashmitha Maddala";
-            width:100%;
-            height:40px;
-            background-color:burlywood;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            position: absolute;
-            left: 0px;
-            top: 1250px;
-            text-align: center;
-        }
-        body{
-            background-color: ;
-        }
+
+    /* Body */
+body {
+background-image: url('https://img.freepik.com/free-photo/vintage-wallpaper-background_53876-146838.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                         Styling for Links on Top Right Corner eg. Google Classroom                                             */
+
+ul {
+list-style-type: none;
+text-align: right;
+top: 30px;
+    left: 820px;
+    position: absolute;
+    }
+
+ul li {
+display: inline-block;
+}
+ul li a {
+background-color: lightblue;
+padding: 20px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 5px solid black;
+}
+ul li a:hover {
+background-color: rgb(180,210,237);
+color: black;
+padding: 15px;
+font-size: 15px;
+font-family:'cursive';
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                  Styling for Table of Contents Heading                                                         */
+
+h2 {
+text-align: center;
+background-color: burlywood;
+padding: 10px;
+font-size: 35px;
+display: inline-block;
+color: black;
+text-decoration: none;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 300px;
+height: 100x;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                      Text styling for each topic                                                                */
+
+/* Section Headers */
+.a {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 200px;
+top: 150px;
+}
+.b {
+align-items: center;
+text-align: center;
+background-color: rgb(166, 123, 91);
+padding: 20px;
+font-size: 35px;
+display: flex;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 40px;
+position: absolute;
+margin-left: 900px;
+top: 150px;
+}
+
+/*                                                                      Styling for Images                                                                         */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Images border */
+img{
+border: 2px solid black;
+}
+
+/* Images */
+/* About me */
+.img1 {
+height: 200px;
+margin-left: 150px;
+top: 250px;
+position: absolute;
+}
+/* Pepeha */
+.img2 {
+height: 200x;
+margin-left: 850px;
+top: 250px;
+position: absolute;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Suprising Fact text styling */
+h4{
+font-size: 30px;
+color: black;
+font-family: cursive;
+background-color:rgb(238,169,144);
+text-align: center; 
+padding: 10px;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Icons */
+/* Computer Icon */
+.icon-1 {
+    font-size: 70px;
+    top: 40px;
+    left: 500px;
+    position: absolute;
+    }
+/* User Icon */
+.icon-3 {
+font-size: 70px;
+top: 150px;
+left: 100px;
+position: absolute;
+}
+/* Pen Icon */
+.icon-4 {
+font-size: 70px;
+top: 150px;
+right: 425px;
+position: absolute;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Click here to see my work button 1 styling */
+.div-1 p{
+list-style-type: none;
+display: inline-block;
+margin-left: 700px;
+top: 1450px;
+position: absolute;
+}
+.div-1 p a {
+background-color: rgb(176,220,76);
+padding: 10px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 3px solid black;
+}
+.div-1 p a:hover {
+background-color: rgb(80,200,120);
+color: black;
+padding: 10px;
+font-size: 20px;
+font-family:cursive;
+}
+
+/* Click here to see my work button 2 styling */
+.div-2 p{
+list-style-type: none;
+display: inline-block;
+margin-left: 500px;
+margin-top: 0px;
+position: absolute;
+top: 1650px;
+right: 365px;
+}
+.div-2 p a {
+background-color: rgb(255,165,0);
+padding: 10px;
+display: inline-block;
+color: black;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 3px solid black;
+}
+.div-2 p a:hover {
+background-color:rgb(255,174,66) ;
+color: black;
+padding: 10px;
+font-size: 20px;
+font-family:cursive;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                      Styling for the Bottom Copyright Symbol                                                    */
+body:after {
+    content:"\00a9 2024 Jashmitha Maddala";
+    width:100%;
+    height:40px;
+    background-color:burlywood;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    text-align: center;
+    }
+
+/* to be visible in multiple screens */
+@media only screen and (max-width:1300px) {
+    html{
+        visibility: visible;
+    }
+}
     </style>
 </head>
+
 <body>
-    <div class="a"><h1>About Me</h1> 
+    <!-- Main Title -->
+    <h1> Jashmitha's Website</h1>
+
+    <!-- ICONS -->
+    <div class="icon-1"> 
+        <i class="fa-sharp-duotone fa-solid fa-desktop"></i>
+    </div>
+    <div class="icon-3"> 
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <div class="icon-4"> 
+        <i class="fa-solid fa-pen"></i>
+    </div>
+
+
+    <!-- Links on the top right hand corner -->
+    <ul>
+        <li><a href="https://classroom.google.com">Home</a></li>
+        <li><a href="https://sites.google.com/new?tgif=c">Pepeha</a></li>
+        <li><a href="https://docs.google.com/document/u/0/?tgif=c">Files</a></li>
+        <li><a href="https://makecode.microbit.org/?authuser=0#">More</a></li>
+    </ul>
+
+
+   <!-- Content/My work -->
+   <!-- 1.ABOUT ME -->
+   <div class="a"><h3>About Me</h3></div>
    <br>
-   <div class="img1"><img src="Images/aboutme.jpg" alt="About Me Pic " width="400" height="400"></div>
    <p>&nbsp</p>
    <p>&nbsp</p>
    <p>&nbsp</p>
@@ -75,9 +289,19 @@
    <p>&nbsp</p>
    <p>&nbsp</p>
    <p>&nbsp</p>
-   
-   <h4> 1 Surprising Fact About Me: I am Left Handed!! </h4>
-   <div class="img2"><img src="Images/pepeha.jpg" alt="Pepeha Pic " width="400" height="400"></div>
+   <p>&nbsp</p>
+
+
+   <div class="img1"><img src="Images/aboutme.jpg" alt="About Me Pic " width="300" height="300"></div>
+   <h4> 1 Surprising Fact About Me: I am Left Handed </h4>
+
+   <!-- 2.PEPEHA -->
+   <div class="b"><h3>Pepeha</h3></div>
+   <br>
+   <div class="img2"><img src="Images/pepeha.jpg" alt="My Pepeha Pic " width="300" height="300"></div>
+   <br><br>
+
+
 
 </body>
 </html>
